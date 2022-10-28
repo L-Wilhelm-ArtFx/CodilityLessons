@@ -1,0 +1,78 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Populate launch.json",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}\\gen_vs_launch.py",
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "name": "cl1_1.exe - (Windows) Lancer",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}\\build\\Debug\\cl1_1.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalTerminal": true
+        },
+        {
+            "name": "cl2_1.exe - (Windows) Lancer",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}\\build\\Debug\\cl2_1.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalTerminal": true
+        },
+        {
+            "name": "cl2_2.exe - (Windows) Lancer",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}\\build\\Debug\\cl2_2.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalTerminal": true
+        },
+        {
+            "name": "cl3_1.exe - (Windows) Lancer",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}\\build\\Debug\\cl3_1.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalTerminal": true
+        },
+        {
+            "name": "cl3_2.exe - (Windows) Lancer",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}\\build\\Debug\\cl3_2.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalTerminal": true
+        },
+        {
+            "name": "cl3_3.exe - (Windows) Lancer",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}\\build\\Debug\\cl3_3.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalTerminal": true
+        }
+    ]
+}
